@@ -29,10 +29,12 @@ function nacrtajTelo(x, y) {
 }
 
 function nacrtajKapu() {
+  push();
   stroke(0);
   translate(positionX - 60, positionY - 60);
   fill(255,100,30);
   triangle(0, 0, 0, 60, 60, 0);
+  pop();
 }
 
 function nacrtajOci() {
